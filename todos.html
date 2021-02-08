@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mis juegos</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width"/>
+		<link href="terminados.css" rel="stylesheet" type="text/css" media="screen"/>
+        <link rel="icon" type="image/png" href="imagenes/icono.png" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+
+        <script src="misjuegos.js"></script>
+
+    </head>
+
+    <body>
+        <header>
+
+        </header>
+        <nav>
+            <ul class="ulnav">
+                <li class="linav"><a href="games.html">Inicio</a></li>
+                <li class="linav"><a href="todos.html">Todos</a></li>
+                <li class="linav"><a href="terminados.html">Terminados</a></li>
+                <li class="linav"><a href="proceso.php">En proceso</a></li>
+                <li class="linav"><a href="futuro.php">Planeo pasarme</a></li>
+            </ul>
+        
+            <label id="id"><input class="input" onclick="darkmode()" type="checkbox"><div class="magia"></div></label>
+        </nav>
+
+        <div class="filtros">
+            <img >
+            <img >
+        </div>
+
+        <section>
+            <article>
+                <div onclick='editar("ID")' style='overflow:hidden'>
+                    <p style='background-color:rgb(8, 153, 8)' class='estado'>pasado</p>
+                    <p style='display: block' class='veces'>1</p>
+                    <img class='imgjuego' src="imagenes/placehorder.jpg">
+                </div>
+                <div class='nome' onclick='deletee("ID")'>
+                    <p>Dark Souls 1</p>
+                    <p>Dark Souls</p>
+                </div>
+            </article>
+            <article>
+                <div onclick='editar("ID")' style='overflow:hidden'>
+                    <p style='background-color: orange ' class='estado'>pasando</p>
+                    <p style='display: none ' class='veces'>10</p>
+                    <img class='imgjuego' src="imagenes/placehorder.jpg">
+                </div>
+                <div class='nome' onclick='deletee("ID")'>
+                    <p>Dark Souls 2</p>
+                    <p>Dark Souls</p>
+                </div>
+            </article>
+            <article>
+                <div onclick='editar("ID")' style='overflow:hidden'>
+                    <p style='background-color: red ' class='estado'>por pasar</p>
+                    <p style='display: none ' class='veces'>0</p>
+                    <img class='imgjuego' src="imagenes/placehorder.jpg">
+                </div>
+                <div class='nome' onclick='deletee("ID")'>
+                    <p>Dark Souls 3</p>
+                    <p>Dark Souls</p>
+                </div>
+            </article>
+            <article>
+                <div onclick='editar("ID")' style='overflow:hidden'>
+                    <p style='background-color: rgb(8, 153, 8)' class='estado'>pasado</p>
+                    <p style='display: block' class='veces'>2</p>
+                    <img class='imgjuego' src="imagenes/placehorder.jpg">
+                </div>
+                <div class='nome' onclick='deletee("ID")'>
+                    <p>Far cry 3</p>
+                    <p>Far cry</p>
+                </div>
+            </article>
+            <article>
+                <div onclick='editar("ID")' style='overflow:hidden'>
+                    <p style='background-color: orange ' class='estado'>pasando</p>
+                    <p style='display: none ' class='veces'>0</p>
+                    <img class='imgjuego' src="imagenes/placehorder.jpg">
+                </div>
+                <div class='nome' onclick='deletee("ID")'>
+                    <p>Far cry Prymal</p>
+                    <p>Far cry</p>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <ul class="ulfooter">
+                <a href="https://github.com/lemosdg"><li class="lifooter">
+                    <img class="logo" src="imagenes/github.png" alt="github"><p>Github</p>
+                </li></a>
+                <li class="lifooter">
+                    <img class="logo" src="imagenes/github.png" alt="github"><p>Github</p>
+                </li>
+                <li class="lifooter">
+                    <img class="logo" src="imagenes/github.png" alt="github"><p>Github</p>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

@@ -158,3 +158,37 @@ a{
     text-decoration: none;
     color: white;
 }
+
+/* perfil */
+
+main{
+    display: flex;
+    justify-content: left;
+}
+
+.calendario{
+    width: 60%;
+}
+
+.activity{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    background-color: orange;
+}
+
+.imgact{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.hora{
+    position: relative;
+    right: 0;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

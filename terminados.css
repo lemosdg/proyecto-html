@@ -20,7 +20,7 @@ nav{
     overflow: hidden;
     background-color: rgb(21,31,46);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -61,7 +61,7 @@ section{
 }
 
 article{
-    background-color: #616161;
+    background-color: rgb(21,31,46);
     width: 400px;
     height: 300px;
     position: relative;
@@ -120,7 +120,9 @@ label .magia{
     transition: all 1s;
     width: 20px;
     height: 20px;
-    margin-right: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px
 }
 
 .input:checked~.magia{

@@ -9,6 +9,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+    box-shadow: inset 0px -40px 30px 30px rgba(0, 0, 0, 0.2);
 }
 
 /* menu */

@@ -35,9 +35,9 @@ nav{
     float: left;
 }
   
-.linav a {
+.linav > a {
     display: block;
-    color: white;
+    color: rgb(159,173,189);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -48,16 +48,21 @@ nav{
 }
 
 .active{
-    background-color: red;
+    color: rgb(61,180,242);
 }
 
 /* caja juegos */
+
+main{
+    display: flex;
+    justify-content: center;
+}
 
 section{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 40px;
+    width: 80%;
 }
 
 article{
@@ -164,7 +169,7 @@ a{
 
 /* perfil */
 
-main{
+.mainperfil{
     display: flex;
     justify-content: left;
 }

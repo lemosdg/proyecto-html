@@ -1,6 +1,8 @@
 body{
-    background-color: #333;
+    background-color: rgb(11,22,34);
     margin: 0;
+    font-family: Helvetica ,sans-serif;
+    font-size: 0.9em;
 }
 
 /* cabecera */
@@ -9,14 +11,19 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+    box-shadow: inset 0px -40px 30px 30px rgba(0, 0, 0, 0.2);
 }
 
 /* menu */
 
 nav{
-    background-color: rgb(92, 86, 86);
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(21,31,46);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -31,9 +38,9 @@ nav{
     float: left;
 }
   
-.linav a {
+.linav > a {
     display: block;
-    color: white;
+    color: rgb(159,173,189);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -44,7 +51,7 @@ nav{
 }
 
 .active{
-    background-color: red;
+    color: rgb(61,180,242);
 }
 
 /* fomularios */
@@ -94,7 +101,6 @@ button:hover{
 
 .darkmode{
     background-color: white;
-    
 }
 
 .input{
@@ -109,11 +115,12 @@ label .magia{
     transition: all 1s;
     width: 20px;
     height: 20px;
-    margin-right: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px
 }
 
 .input:checked~.magia{
     background-color: rgb(19, 17, 17);
     transform: rotate(360deg);
-
 }

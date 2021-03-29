@@ -109,6 +109,21 @@ article{
     justify-content: space-between;
 }
 
+.editimg{
+    width: 20px;
+    position: absolute;
+    bottom: 55px;
+    right: 10px;
+    display: none;
+    background-color: rgb(60, 128, 255);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+article:hover .editimg{
+    display: block;
+}
+
 /* darkmode */
 
 .darkmode{

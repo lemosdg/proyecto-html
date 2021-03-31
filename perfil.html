@@ -38,7 +38,14 @@
         </nav>
 
         <main class="mainperfil">
-            <div class="calendario"></div>
+            <div id="calendario"></div>
+            <script>
+                var x ="", i;
+                for (i=1; i<=6; i++) {
+                  x = x + "<p> Heading </h>";
+                }
+                document.getElementById("calendario").innerHTML = x;
+            </script>
 
             <div class="activity">
                 <img class="imgact" src="imagenes/github.png">

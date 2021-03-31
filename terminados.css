@@ -188,11 +188,35 @@ a{
 
 .mainperfil{
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    width: 80%;
 }
 
-.calendario{
-    width: 60%;
+h3{
+    color: rgb(159,173,189);
+}
+
+#calendario{
+    width: 400px;
+    display: grid;
+    grid-auto-flow: column dense;
+    grid-template-rows: repeat(7,1fr);
+    padding: 10px;
+    background-color: rgb(21,31,46);
+    border-radius: 4px;
+}
+
+.cal{
+    margin-top: 30px;
+}
+
+.day{
+    width: 8px;
+    height: 8px;
+    background-color: blanchedalmond;
+    margin: 4px;
+    border-radius: 2px;
+    background-color: rgb(6,12,19);
 }
 
 .activity{

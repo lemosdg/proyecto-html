@@ -38,20 +38,18 @@
         </nav>
 
         <main class="mainperfil">
-            <div id="calendario"></div>
-            <script>
-                var x ="", i;
-                for (i=1; i<=6; i++) {
-                  x = x + "<p> Heading </h>";
-                }
-                document.getElementById("calendario").innerHTML = x;
-            </script>
-
-            <div class="activity">
-                <img class="imgact" src="imagenes/github.png">
-                <p class="actividad">lemosdg ha completado Yakuza 0</p>
-                <p class="hora">hace 2 dias</p>
+            <div class="cal">
+                <h3>Registro de actividad</h3>
+                <div id="calendario"></div>
+                <script>
+                    var x ="", i;
+                    for (i=1; i<=150; i++) {
+                    x = x + '<div class="day"> </div>';
+                    }
+                    document.getElementById("calendario").innerHTML = x;
+                </script>
             </div>
+
         </main>
 
         <footer>

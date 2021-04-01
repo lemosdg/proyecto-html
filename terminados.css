@@ -186,14 +186,32 @@ a{
 
 /* perfil */
 
-.mainperfil{
+.allperfil{
     display: flex;
     justify-content: center;
+}
+
+.mainperfil{
     width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.secper1{
+    width: 40%;
+}
+
+.secper2{
+    margin-left: 30px;
+    width: 40%;
 }
 
 h3{
     color: rgb(159,173,189);
+}
+
+h4{
+    color: rgb(61,180,242)
 }
 
 #calendario{
@@ -217,4 +235,36 @@ h3{
     margin: 4px;
     border-radius: 2px;
     background-color: rgb(6,12,19);
+}
+
+.actperfil{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    color: rgb(159,173,189);
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.ac-per{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.act-1{
+    display: flex;
+}
+
+.act-2{
+    margin-left: 10px;
+}
+
+.fechaw{
+    margin-right: 10px;
+}
+
+.imgactividad{
+    width: 120px;
 }

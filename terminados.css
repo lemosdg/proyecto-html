@@ -227,6 +227,7 @@ h4{
 
 .cal{
     margin-top: 30px;
+    width: 100%;
 }
 
 .day{
@@ -268,4 +269,61 @@ h4{
 
 .imgactividad{
     width: 120px;
+}
+
+.estadistica{
+    width: 100%;
+}
+
+.cajastats{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(21,31,46);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.cajastats > p{
+    color: white;
+}
+
+.barrastat{
+    display: flex;
+    height: 10px;
+}
+
+.bpasado{
+    background-color: rgb(8, 153, 8);
+    width: 45%;
+    height: 10px;
+}
+
+.bpasando{
+    background-color: rgb(226, 159, 34);
+    width: 25%;
+    height: 10px;
+}
+
+.bporpasar{
+    background-color: rgb(231, 40, 40);
+    width: 30%;
+    height: 10px;
+}
+
+.ppasado{
+    background-color: rgb(8, 153, 8);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.ppasando{
+    background-color: rgb(226, 159, 34);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.pporpas{
+    background-color: rgb(231, 40, 40);
+    padding: 5px;
+    border-radius: 4px;
 }

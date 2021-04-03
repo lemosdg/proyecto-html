@@ -188,7 +188,8 @@ footer{
     background-color: #11161d;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
 }
 
 .logo{
@@ -196,15 +197,15 @@ footer{
     height: 35px;
 }
 
-.ulfooter {
+.ulfooter{
     list-style-type: none;
     padding: 0;
-    width: 150px;
+    width: 200px;
 }
 
 .lifooter{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     align-items: center;
     padding: 5px;
 }

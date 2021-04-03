@@ -146,3 +146,42 @@ label .magia{
     background-color: rgb(19, 17, 17);
     transform: rotate(360deg);
 }
+
+/* responsive */
+
+@media (max-width: 800px) {
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header{
+        display: none;
+    }
+
+    nav > label{
+        display: none;
+    }
+
+    .ulnav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav{
+        width: 100%;
+        position: relative;
+    }
+
+    div{
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .opciones{
+        display: flex;
+        flex-direction: column;
+    }
+}

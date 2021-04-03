@@ -23,3 +23,8 @@ function darkmode(){
 function editar(id){
     window.location.href = "edit.php?e="+id
 }
+
+function menu(){
+    var element = document.body;
+    element.classList.toggle("menu");
+}

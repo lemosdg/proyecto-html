@@ -27,6 +27,10 @@ nav{
     align-items: center;
 }
 
+.linav1{
+    display: none;
+}
+
 .ulnav {
     list-style-type: none;
     margin: 0;
@@ -52,6 +56,25 @@ nav{
 
 .active{
     color: rgb(61,180,242) !important;
+}
+
+aside{
+    width: 100px;
+}
+
+.divsubmenu{
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu{
+    padding: 10px;
+    border-radius: 4px;
+    color: rgb(159,173,189);
+}
+
+#activo{
+    background-color: rgb(21,31,46) !important;
 }
 
 /* caja juegos */

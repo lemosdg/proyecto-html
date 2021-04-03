@@ -55,7 +55,7 @@ nav{
 }
 
 .active{
-    color: rgb(61,180,242);
+    color: rgb(61,180,242) !important;
 }
 
 /* fomularios */

@@ -27,6 +27,10 @@ nav{
     align-items: center;
 }
 
+.linav1{
+    display: none;
+}
+
 .ulnav {
     list-style-type: none;
     margin: 0;
@@ -51,7 +55,7 @@ nav{
 }
 
 .active{
-    color: rgb(61,180,242);
+    color: rgb(61,180,242) !important;
 }
 
 /* darkmode */

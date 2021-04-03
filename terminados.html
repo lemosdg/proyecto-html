@@ -28,11 +28,10 @@
         </header>
         <nav>
             <ul class="ulnav">
+                <li class="linav1"><img src="imagenes/edit.svg" onclick="menu()"></li>
                 <li class="linav"><a href="games.html">Inicio</a></li>
-                <li class="linav"><a href="todos.html">Todos</a></li>
-                <li class="linav"><a href="terminados.html">Terminados</a></li>
-                <li class="linav"><a href="proceso.php">En proceso</a></li>
-                <li class="linav"><a href="futuro.php">Planeo pasarme</a></li>
+                <li class="linav"><a href="actividad.html">Actividad</a></li>
+                <li class="linav"><a class="active" href="todos.html">Mi Lista</a></li>
                 <li class="linav"><a href="perfil.html">Perfil</a></li>
             </ul>
 
@@ -43,6 +42,15 @@
             <img >
         </div>
         <main>
+            <aside>
+                <h3>Titulo</h3>
+                <div class="divsubmenu">
+                    <a class="submenu" href="todos.html">Todos</a>
+                    <a class="submenu" id="activo" href="terminados.html">Pasados</a>
+                    <a class="submenu" href="">Pasando</a>
+                    <a class="submenu" href="">Por pasar</a>
+                </div>
+            </aside>
             <section>
                 <article>
                     <div style='overflow:hidden'>

@@ -28,3 +28,8 @@ function menu(){
     var element = document.body;
     element.classList.toggle("menu");
 }
+
+function load(){
+    var element = document.body;
+    element.classList.toggle("cargarmas");
+}

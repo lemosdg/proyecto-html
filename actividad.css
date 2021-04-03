@@ -147,6 +147,24 @@ p, h3{
     margin-right: 10px;
 }
 
+.bloque2{
+    display: none;
+}
+
+.cargar{
+    background-color: rgb(21,31,46);
+    display: flex;
+    justify-content: center;
+    color: rgb(159,173,189);
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cargarmas .bloque2{
+    display: block;
+}
+
 /* section 2 */
 
 .sec2{

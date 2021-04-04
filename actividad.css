@@ -236,3 +236,72 @@ a{
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 800px) {
+
+    nav{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: left;
+    }
+
+    .ulnav{
+        width: 100%;
+    }
+
+    .linav{
+        display: none;
+    }
+
+    .linav1{
+        display: block;
+        width: 20px;
+        padding: 5px;
+        border-radius: 4px;
+        margin-left: 20px;
+    }
+
+    /* funcion menu */
+
+    .menu .linav{
+        display: block;
+    }
+
+    header{
+        display: none;
+    }
+
+    nav > label{
+        display: none;
+    }
+
+    .ulnav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* main */
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    .fecha{
+        display: none;
+    }
+
+    .sec2{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .game{
+        width: 170px;
+    }
+}

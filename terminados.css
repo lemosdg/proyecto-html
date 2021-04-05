@@ -352,6 +352,20 @@ h4{
     border-radius: 4px;
 }
 
+.perfilimg{
+    width: 100px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.pefilnombre{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 350px;
+    color: white;
+}
+
 @media (max-width: 420px) {
 
     nav{

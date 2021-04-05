@@ -237,7 +237,7 @@ a{
     color: white;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 420px) {
 
     nav{
         width: 100%;

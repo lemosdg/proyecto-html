@@ -292,7 +292,8 @@ h4{
 }
 
 .imgactividad{
-    width: 120px;
+    width: 100px;
+    margin-right: 10px;
 }
 
 .estadistica{
@@ -303,7 +304,6 @@ h4{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(21,31,46);
-    padding: 10px;
     border-radius: 4px;
 }
 

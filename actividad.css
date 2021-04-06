@@ -313,3 +313,17 @@ a{
         width: 170px;
     }
 }
+
+/* ipad */
+
+@media (max-width: 820px) {
+    
+    .progress{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .game{
+        margin-left: 40px;
+    }
+}

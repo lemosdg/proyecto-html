@@ -465,3 +465,20 @@ h4{
         display: none;
     }
 }
+
+/* ipad */
+
+@media (max-width: 820px) {
+    .mainperfil{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secper1{
+        width: 60%;
+    }
+
+    .secper2{
+        width: 100%;
+    }
+}

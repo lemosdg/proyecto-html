@@ -178,6 +178,12 @@ label .magia{
         margin-left: 20px;
     }
 
+    .resp{
+        background-color: rgb(61,180,242);
+        padding: 5px;
+        border-radius: 4px;
+    }
+
     /* funcion menu */
 
     .menu .linav{
